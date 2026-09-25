@@ -19,6 +19,12 @@ python logreg.py
 
 Optional arguments can configure the training step size, number of passes, regularization, input files, and extra-credit modes.
 
+The included `data` directory contains the files used by the default command:
+
+- `positive.txt`: Positive training examples.
+- `negative.txt`: Negative training examples.
+- `vocab.txt`: Vocabulary and document-frequency values used to build features.
+
 ## Tests
 
 Run the unit tests with:
